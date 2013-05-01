@@ -21,7 +21,8 @@ get_header(); ?>
 <?php endwhile; ?>
 		
         <!--first category-->
-		<div class="featured-page"> 
+		<div class="featured-page">
+        <h2><img src="/wp-content/themes/wellykai/images/WellyKaiRecommends.png" alt="Welly Kai Recommends" /></h2> 
              <?php 
 			 	add_image_size('features-image', 200, 200); 
 				$arguments = array(
@@ -30,7 +31,7 @@ get_header(); ?>
 				$first_query = new WP_Query($arguments);
 				while( $first_query->have_posts() ) : $first_query->the_post();?>
 				
-                <h2><img src="/wp-content/themes/wellykai/images/WellyKaiRecommends.png" alt="Welly Kai Recommends" /></h2>
+                
                 <h3 class="featured-page-article-heading"><a href="<?php the_permalink() ?>"><strong><?php if(strlen(the_title()) < 50){
 					echo "<br />";
 				}; ?></strong></a></h3>

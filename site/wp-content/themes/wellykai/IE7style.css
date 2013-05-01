@@ -1,0 +1,48 @@
+/*
+Theme Name: Welly Kai IE 7
+Theme URI: http://wellykai.co.nz
+Author: Mike Penhall
+*/
+
+
+
+#navMenu ul li{
+	display:inline!important;
+	margin:25px 0 0 55px;
+}
+
+#navMenu ul li a{
+	text-decoration:none;
+	display:inline!important;
+}
+
+#navMenu li img{
+	height:54px;	
+	display:inline!important;
+}
+
+#navMenu li span img{
+	display:none!important;
+}
+
+#navMenu li:hover span img{
+	display:inline!important;
+}
+
+#navMenu li:hover img{
+	display:none;	
+}
+
+#navMenu li:hover span img,
+#navMenu li span.current-page img{
+	display:inline!important;
+}
+
+#navMenu li:hover img,
+#navMenu li img.current-hide{
+	display:none!important;	
+}
+
+#secondary {
+	/*margin-top:-338px;*/
+}

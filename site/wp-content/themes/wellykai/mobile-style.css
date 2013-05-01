@@ -1,0 +1,19 @@
+/* copy and paste the following into plugins/wptouch/themes/default/header.php if the theme ever gets updated
+
+<link rel="stylesheet" type="text/css" media="all" href="http://wellykai.co.nz/wp-content/themes/wellykai/mobile-style.css" />
+
+Also remove switch mobile style on and off footer.php
+*/
+
+#!wptouch-menu{
+	background-color:#05b14c!important;
+}
+
+#drop-fade {
+	background-color:#05b14c!important;
+}
+
+.content, body{
+	background-image:none!important;
+	background-color:#FFF!important;	
+}

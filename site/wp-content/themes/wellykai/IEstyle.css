@@ -1,0 +1,13 @@
+/*
+Theme Name: Welly Kai
+Theme URI: http://wellykai.co.nz
+Author: Mike Penhall
+*/
+
+#navMenu ul li a #home-img img{
+	display:inline!important;	
+}
+
+#secondary {
+	/*margin-top:-115px;*/ 
+}

@@ -753,7 +753,7 @@ a:hover {
 	padding: 1.625em 0 0;
 }
 
-.entry-content{
+#about-page .entry-content{
 	padding-bottom:50px;	
 	margin-left:50px!important;
 }
@@ -2321,6 +2321,15 @@ p.comment-form-comment {
 
 .post-info{
 	margin:-35px 0 10px 0;	
+}
+
+/* =Category, Tag and Archives
+----------------------------------------------- */
+
+header.category-header,
+header.tag-header,
+header .archive-header{
+	margin-top:-98px;
 }
 
 

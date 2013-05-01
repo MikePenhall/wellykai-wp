@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-				<header class="page-header">
+				<header class="page-header tag-header">
 					<h1 class="page-title"><?php
 						printf( __( 'Tag Archives: %s', 'twentyeleven' ), '<span>' . single_tag_title( '', false ) . '</span>' );
 					?></h1>

@@ -26,7 +26,7 @@ get_header(); ?>
              <?php 
 			 	add_image_size('features-image', 200, 200); 
 				$arguments = array(
-					'category_id' => 25, 'posts_per_page' => 3, 'order' => 'DESC'
+					'cat' => 25, 'posts_per_page' => 3, 'order' => 'DESC'
 				);				
 				$first_query = new WP_Query($arguments);
 				while( $first_query->have_posts() ) : $first_query->the_post();?>

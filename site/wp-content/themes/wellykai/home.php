@@ -16,7 +16,6 @@
 get_header(); ?>
 
 		<div id="container">
-    		   	
 			<div id="content" role="main">
 			<?php
 			/* Run the loop to output the posts.
@@ -43,11 +42,11 @@ get_header(); ?>
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 				  the_post_thumbnail('homepage-image',array('class'=>'left featured-img'));
 				} /*else {?>
-					<img src="/wp-content/themes/riotradio/images/record250.jpg" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" class="left" />	<?php	
+					<img src="/wp-content/themes/wellykairF/images/record250.jpg" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" class="left" />	<?php	
 				}*/?>
 				
 				<?php the_excerpt(); ?>
-                <?php comments_popup_link('', '1 <img src="/wp-content/themes/wellykai/images/speech-bubble.png" alt="Comment" title="1 Comment">', '% <img src="/wp-content/themes/riotradio/images/speech-bubble.png" alt="Comments" title="% Comments">'); ?><br />
+                <?php comments_popup_link('', '1 <img src="/wp-content/themes/wellykai/images/comment-bubble.png" alt="Comment" title="1 Comment">', '% <img src="/wp-content/themes/wellykai/images/comment-bubble.png" alt="Comments" title="% Comments">'); ?><br />
                 <small>Posted in <?php the_category(', '); ?></small><br />
                 <small><?php the_tags( "Tagged with: ", ', ', ''); ?></small><br /><br />
                 

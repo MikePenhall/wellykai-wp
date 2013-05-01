@@ -19,7 +19,7 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-				<header class="page-header">
+				<header class="page-header archive-header">
 					<h1 class="page-title">
 						<?php if ( is_day() ) : ?>
 							<?php printf( __( 'Daily Archives: %s', 'twentyeleven' ), '<span>' . get_the_date() . '</span>' ); ?>

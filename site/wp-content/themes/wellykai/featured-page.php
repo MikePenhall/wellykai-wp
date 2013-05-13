@@ -46,6 +46,7 @@ get_header(); ?>
 				
 				wp_reset_postdata();
 			 ?>
+             <p><a href="/category/recommended/">More...</a></p>
 		</div>	
 		
         

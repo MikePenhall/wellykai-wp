@@ -41,9 +41,11 @@ get_header(); ?>
 			                                               
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 				  the_post_thumbnail('homepage-image',array('class'=>'left featured-img'));
-				} /*else {?>
-					<img src="/wp-content/themes/wellykairF/images/record250.jpg" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" class="left" />	<?php	
-				}*/?>
+				} else {
+					if(catch_that_image()){
+						echo "<img src='".catch_that_image()."' alt='".get_the_title()."'  title='".get_the_title()."' class='left featured-img' />";
+					}
+				}?>
 				
 				<?php the_excerpt(); ?>
                 <?php comments_popup_link('', '1 <img src="/wp-content/themes/wellykai/images/comment-bubble.png" alt="Comment" title="1 Comment">', '% <img src="/wp-content/themes/wellykai/images/comment-bubble.png" alt="Comments" title="% Comments">'); ?><br />

@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-				<header class="page-header">
+				<header class="page-header category-header">
 					<h1 class="page-title"><?php
 						printf( __( 'Category Archives: %s', 'twentyeleven' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 					?></h1>

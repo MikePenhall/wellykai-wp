@@ -84,11 +84,14 @@ body {
 	margin: 0 34% 0 7.6%;
 	width: 58.4%;
 }
+#container{
+	float:left;	
+}
 #secondary {
 	float: right;
 	margin-right: 7.6%;
 	width: 180px;
-	margin-top:-95px;
+	margin-top:-73px;
 }
 
 /* Singular */
@@ -463,12 +466,13 @@ input#searchsubmit {
 
 /* Links */
 a {
-	color: #1982d1;
+	color: #A96F4F;
 	text-decoration: none;
 }
 a:focus,
 a:active,
 a:hover {
+	color:#05B14C;
 	text-decoration: underline;
 }
 
@@ -727,13 +731,13 @@ a:hover {
 }
 .entry-title,
 .entry-title a {
-	color: #05b14c;
+	color: #A96F4F;
 	text-decoration: none;
 }
 .entry-title a:hover,
 .entry-title a:focus,
 .entry-title a:active {
-	color: #1982d1;
+	color: #05B14C;
 }
 .entry-meta {
 	color: #666;
@@ -745,6 +749,9 @@ a:hover {
 	font-weight: bold;
 	color:#a96f4f;
 }
+.entry-mata a:hover{
+	color:#05B14C;	
+}
 .single-author .entry-meta .by-author {
 	display: none;
 }
@@ -753,7 +760,7 @@ a:hover {
 	padding: 1.625em 0 0;
 }
 
-.entry-content{
+#about-page .entry-content{
 	padding-bottom:50px;	
 	margin-left:50px!important;
 }
@@ -2321,6 +2328,15 @@ p.comment-form-comment {
 
 .post-info{
 	margin:-35px 0 10px 0;	
+}
+
+/* =Category, Tag and Archives
+----------------------------------------------- */
+
+header.category-header,
+header.tag-header,
+header .archive-header{
+	margin-top:-98px;
 }
 
 

@@ -86,9 +86,10 @@ body {
 }
 #container{
 	float:left;	
+	width:710px;
 }
 #secondary {
-	float: right;
+	float: left;
 	margin-right: 7.6%;
 	width: 180px;
 	margin-top:-73px;
@@ -1738,8 +1739,6 @@ section.recent-posts .other-recent-posts li:after {
 
 .widget-area {
 	font-size: 12px;
-	position:absolute;
-	margin-left:740px;
 }
 .widget {
 	clear: both;
@@ -2293,7 +2292,9 @@ p.comment-form-comment {
 .homepage-story{
 	float:left;	
 	margin-top:-100px;
+	margin-left:20px;
 	padding-bottom:100px;
+	width:580px;
 }
 
 .homepage-story a{
